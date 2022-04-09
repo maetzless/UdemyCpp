@@ -14,14 +14,19 @@
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
   "files.autoSave": "onFocusChange",
   "files.associations": {
     ".clang*": "yaml"
   },
-  "workbench.editorAssociations": {
-    "*.md": "vscode.markdown.preview.editor"
-  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
   "workbench.startupEditor": "newUntitledFile",
+  "workbench.editorAssociations": {
+    "*.md": "vscode.markdown.preview.editor",
+    "*.svg": "svgPreviewer.customEditor"
+  },
   "git.enableSmartCommit": true,
   "git.autofetch": true,
   "git.confirmSync": false,
@@ -51,6 +56,17 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false,
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120
+  },
+  "[plaintext]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120
+  },
   "Workspace_Formatter.includePattern": [
     "*.c",
     "*.h",
@@ -58,6 +74,21 @@
     "*.hh",
     "*.hpp"
   ],
+  "Workspace_Formatter.excludePattern": [
+    "**/build",
+    "**/.*",
+    "**/.vscode"
+  ],
+  "codesnap.showWindowControls": false,
+  "codesnap.shutterAction": "copy",
+  "svg.preview.autoOpen": true,
+  "errorLens.delay": 1000,
+  "errorLens.enabledDiagnosticLevels": [
+    "error",
+    "warning"
+  ],
+  "errorLens.enabled": false,
+  "C_Cpp.errorSquiggles": "Disabled",
   "C_Cpp_Runner.cCompilerPath": "C:/cygwin64/bin/gcc.exe",
   "C_Cpp_Runner.cppCompilerPath": "C:/cygwin64/bin/g++.exe",
   "C_Cpp_Runner.debuggerPath": "gdb",

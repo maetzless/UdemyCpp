@@ -1,7 +1,7 @@
 #include <iostream>
 
-// !true == false
 // !false == true
+// !true == false
 
 int main()
 {

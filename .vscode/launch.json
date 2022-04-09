@@ -49,13 +49,11 @@
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
-      "args": [
-        ""
-      ],
+      "args": [],
       "stopAtEntry": false,
-      "cwd": "c:/Users/Jan/Dropbox/_Coding/UdemyCpp/01_Basics/Test",
+      "cwd": "c:/Zpuffer/Grundlagen_CPP/CPP_Komplettkurs_Udemy/UdemyCpp_Template-main/01_Basics",
       "environment": [],
-      "program": "c:/Users/Jan/Dropbox/_Coding/UdemyCpp/01_Basics/Test/build/Debug/outDebug",
+      "program": "c:/Zpuffer/Grundlagen_CPP/CPP_Komplettkurs_Udemy/UdemyCpp_Template-main/01_Basics/build/Debug/outDebug",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
